@@ -1,0 +1,33 @@
+$color: blue;
+
+%message {
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    height: 25px;
+    border: 1px solid black;
+    color: white;
+}
+
+ul {
+    color: $color;
+}
+
+ol {
+    color: $color;
+}
+
+.success {
+    @extend %message;
+    background-color: green;
+}
+
+.warning {
+    @extend %message;
+    background-color: orange;
+}
+
+.danger {
+    @extend %message;
+    background-color: red;
+}
