@@ -121,3 +121,34 @@ Note: To run scss files into html file, we have to convert to css.
 -----------------------------------------------------------------------------------
                         :::: GIT ::::
 -----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+                        ::: Python :::
+-----------------------------------------------------------------------------------
+-> print("hello, world")
+-> user input:
+    name = input("Enter your name: ")
+    print("Hello, "+name)
+
+-> Type Casting:-
+input will be always in "string" so converting into integer as using "int()".
+
+->conditional:-
+n = int(input("Enter the number: "))
+
+    if n>2:
+        print("n is greater than 2")
+    elif n<2:
+        print("n is less than 2")
+    else:
+        print("they are equal")
+
+-> Data Structures:-
+    -> list - sequence of mutable values.
+    -> tuple - sequence of immutable values.
+    -> set - collection of unique values.
+    -> dict - collection of key-value pairs.
+
+-> importing a function from another file:-
+    -> from <filename> import <fuctionName>
+    eg: from functions import square.
