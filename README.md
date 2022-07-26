@@ -121,3 +121,29 @@ Note: To run scss files into html file, we have to convert to css.
 -----------------------------------------------------------------------------------
                         :::: GIT ::::
 -----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+                        ::: Python :::
+-----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+                        ::: Django :::
+-----------------------------------------------------------------------------------
+
+-> python install pip or pip3
+
+-> pip -V or --version
+
+-> pip install django or pip3 install django
+
+-> To create a project in django:
+    -> django-admin startproject <project-Name>
+
+-> To create a application in a django created project folder:-
+    -> python manage.py startapp <application-Name>
+
+-> Migrating the application:
+    -> python manage.py migrate
+
+-> running django application: 
+        -> python manage.py runserver
