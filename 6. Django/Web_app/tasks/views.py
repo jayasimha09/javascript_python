@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.urls import reverse
 
 # tasks = ["javascript", "python", "Django", "ReactJS"]
+tasks = []
 
 class NewTaskForm(forms.Form):
     task = forms.CharField(label="New Task")
